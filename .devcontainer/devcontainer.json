@@ -13,10 +13,16 @@
         "ms-python.python",
         "ms-toolsai.jupyter",
         "ms-vsliveshare.vsliveshare",
-        "formulahendry.code-runner"
+        "formulahendry.code-runner",
+        "GitHub.github-vscode-theme",
+        "keksiqc.idx-monospace-theme"
       ],
       "settings": {
-        "python.pythonPath": "/usr/local/bin/python"
+        "python.pythonPath": "/usr/local/bin/python",
+        "python.terminal.shellIntegration.enabled": true,
+        "workbench.colorTheme": "GitHub Dark",
+        "workbench.iconTheme": "monospace-icons",
+        "jupyter.askForKernelRestart": true
       }
     }
   }
